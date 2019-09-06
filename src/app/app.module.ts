@@ -10,13 +10,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { registerLocaleData } from '@angular/common';
 import en from '@angular/common/locales/en';
 import { NzDemoTableBasicComponent } from './nz-demo-table-basic/nz-demo-table-basic.component';
+import { NzDemoStepsSimpleComponent } from './nz-demo-steps-simple/nz-demo-steps-simple.component';
 
 registerLocaleData(en);
 
 @NgModule({
   declarations: [
     AppComponent,
-    NzDemoTableBasicComponent
+    NzDemoTableBasicComponent,
+    NzDemoStepsSimpleComponent,
   ],
   imports: [
     BrowserModule,
